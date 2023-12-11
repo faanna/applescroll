@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.wrap > div {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.wrap #box1 {
+  height: 1300px;
+  background-color: #ddd;
+}
+.wrap #box1 .obj1 {
+  width: 1200px;
+  height: 1200px;
+  background-color: #aaa;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -600px;
+  margin-left: -600px;
+  transform: rotate(45deg);
+}
+.wrap #box2 {
+  height: 2000px;
+}
+.wrap #box2 .txt2 {
+  font: bold 100px/1 "arial";
+  color: #000;
+  position: fixed;
+  left: 100px;
+  top: 30%;
+  opacity: 0;
+}
+.wrap #box2 .obj2 {
+  width: 0px;
+  height: 2px;
+  background-color: #000;
+  position: fixed;
+  top: 50%;
+  left: 100px;
+}
+.wrap #box3 {
+  height: 1500px;
+  background-color: #444;
+}
+.wrap #box3 .obj3 {
+  width: 400px;
+  height: 400px;
+  background-color: #888;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -200px;
+  margin-top: -200px;
+  opacity: 1;
+  transform: scale(2);
+}
+
+/*# sourceMappingURL=style.css.map */
